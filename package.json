@@ -1,0 +1,22 @@
+{
+  "name": "shard-drift",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An asteroids-style vector shooter on canvas with procedurally generated rocks, polygon collision, and toroidal wraparound.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {
+    "@fontsource/space-mono": "^5.3.0"
+  }
+}
