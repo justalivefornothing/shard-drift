@@ -1,16 +1,22 @@
 # Shard Drift
 
-An asteroids-style vector shooter on canvas with procedurally generated shards.
+Asteroids-style vector shooter on canvas with procedurally generated rocks, polygon collision, and toroidal wraparound.
 
 ## Features
 
-- Classic vector asteroids gameplay
-- Procedural shard generation
-- Canvas rendering
+- Procedural shard / rock shapes
+- Polygon collision
+- Screen wrap (toroidal)
+- Classic thrust / fire / hyperspace-style controls
 
-## Status
+## Run
 
-See project files / PLAN if present for remaining polish.
+```bash
+npm install
+npm run dev
+```
+
+Or open the static entry if present.
 
 ## License
 
